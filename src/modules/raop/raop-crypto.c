@@ -27,9 +27,8 @@
 #include <stdint.h>
 #include <string.h>
 
-#include <openssl/err.h>
-#include <openssl/aes.h>
-#include <openssl/rsa.h>
+#include <openssl-1.0/openssl/aes.h>
+#include <openssl-1.0/openssl/rsa.h>
 
 #include <pulse/xmalloc.h>
 
